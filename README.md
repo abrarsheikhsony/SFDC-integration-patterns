@@ -13,7 +13,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<th colspan="5">Salesforce Integration Approaches (High Level Overview)</th>
 	</tr>
 	<tr>
-		<th>Declarative <br/> (Point and Click) / Programmatic</th>
+		<th>Declarative (Point and Click) <br/> / Programmatic</th>
 		<th>Type <br/> (Apex / API)</th>
 		<th>Communication</th>
 		<th>Protocol</th>
