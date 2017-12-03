@@ -48,6 +48,24 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<td></td>
 		<td>call via Apex, Custom Buttons, AJAX Toolkit</td>
 	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex Inbound Email Service</td>
+		<td></td>
+		<td>Synchronous</td>
+		<td></td>
+		<td></td>
+		<td>Messaging.InboundEmailHandler</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex Outbound Email Service</td>
+		<td></td>
+		<td>Synchronous</td>
+		<td></td>
+		<td></td>
+		<td>Messaging.SingleEmailMessage, Messaging.MassEmailMessage, Messaging.sendEmail()</td>
+	</tr>
 </table>
 
 
