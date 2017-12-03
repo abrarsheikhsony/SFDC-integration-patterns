@@ -37,7 +37,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<td>Asynchronous</td>
 		<td></td>
 		<td></td>
-		<td></td>
+		<td>@future(callout=true)</td>
 	</tr>
 	<tr>
 		<td>Programmatic</td>
