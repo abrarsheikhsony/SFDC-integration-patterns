@@ -54,7 +54,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<td></td>
 		<td>Asynchronous</td>
 		<td></td>
-		<td></td>
+		<td>JSON, XML, Custom</td>
 		<td>@future(callout=true)</td>
 	</tr>
 	<tr>
