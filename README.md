@@ -20,11 +20,11 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<th>Data Format</th>
 	</tr>
 	<tr>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>Declarative (Point and Click)</td>
+		<td>Outbound Message</td>
+		<td>Asynchronous</td>
+		<td>SOAP (WSDL)</td>
+		<td>XML</td>
 	</tr>
 </table>
 
