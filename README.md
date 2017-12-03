@@ -71,14 +71,14 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<td>Apex @webService keyword methods</td>
 		<td>Custom SOAP API</td>
 		<td>Synchronous</td>
-		<td></td>
-		<td></td>
+		<td>SOAP (WSDL)</td>
+		<td>XML, Custom</td>
 		<td>call via Apex, Custom Buttons, AJAX Toolkit</td>
 	</tr>
 	<tr>
 		<td>Programmatic</td>
 		<td>Apex @RestResource annotation</td>
-		<td>Apex REST API</td>
+		<td>Custom REST API</td>
 		<td>Synchronous</td>
 		<td>REST</td>
 		<td>JSON, XML, Custom</td>
