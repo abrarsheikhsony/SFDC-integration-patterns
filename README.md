@@ -86,6 +86,15 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
+		<td>Apex HTTP Callout</td>
+		<td></td>
+		<td>Synchronous</td>
+		<td>REST or SOAP (WSDL)</td>
+		<td>JSON, XML, Custom</td>
+		<td>Apex HTTP Callout (RESTful Callouts)</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
 		<td></td>
 		<td>SOAP API</td>
 		<td>Synchronous</td>
