@@ -149,6 +149,15 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
+		<td>Force.com Canvas API</td>
+		<td></td>
+		<td>Synchronous</td>
+		<td>JavaScript</td>
+		<td>JavaScript code</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
 		<td></td>
 		<td>Chatter REST API</td>
 		<td>Synchronous (photos are processed asynchronously)</td>
@@ -166,5 +175,3 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<td></td>
 	</tr>
 </table>
-
-
