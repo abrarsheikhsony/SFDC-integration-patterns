@@ -32,7 +32,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Apex @future methods</td>
+		<td>Apex @future callout methods</td>
 		<td></td>
 		<td>Asynchronous</td>
 		<td></td>
