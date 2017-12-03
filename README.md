@@ -32,24 +32,6 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Apex @future callout methods</td>
-		<td></td>
-		<td>Asynchronous</td>
-		<td></td>
-		<td></td>
-		<td>@future(callout=true)</td>
-	</tr>
-	<tr>
-		<td>Programmatic</td>
-		<td>Apex @webService keyword methods</td>
-		<td>Custom SOAP API</td>
-		<td>Synchronous</td>
-		<td></td>
-		<td></td>
-		<td>call via Apex, Custom Buttons, AJAX Toolkit</td>
-	</tr>
-	<tr>
-		<td>Programmatic</td>
 		<td>Apex Inbound Email Service</td>
 		<td></td>
 		<td>Synchronous</td>
@@ -68,12 +50,111 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
+		<td>Apex @future callout methods</td>
+		<td></td>
+		<td>Asynchronous</td>
+		<td></td>
+		<td></td>
+		<td>@future(callout=true)</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex WSDL2Apex</td>
+		<td>Apex SOAP API</td>
+		<td>Synchronous</td>
+		<td>SOAP (WSDL)</td>
+		<td>XML</td>
+		<td>WSDL2Apex (Generate Apex class using an external WSDL)</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex @webService keyword methods</td>
+		<td>Custom SOAP API</td>
+		<td>Synchronous</td>
+		<td></td>
+		<td></td>
+		<td>call via Apex, Custom Buttons, AJAX Toolkit</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
 		<td>Apex @RestResource annotation</td>
 		<td>Apex REST API</td>
 		<td>Synchronous</td>
 		<td>REST</td>
 		<td>JSON, XML, Custom</td>
 		<td>Apex REST-based Web Services (@RestResource, @HttpDelete, @HttpGet, @HttpPut, @HttpPatch, @HttpPost)</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>SOAP API</td>
+		<td>Synchronous</td>
+		<td>SOAP (WSDL)</td>
+		<td>XML</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>REST API</td>
+		<td>Synchronous</td>
+		<td>REST</td>
+		<td>JSON, XML</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>Bulk API</td>
+		<td>Asynchronous</td>
+		<td>REST</td>
+		<td>CSV, JSON, XML</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>Metadata API</td>
+		<td>Asynchronous</td>
+		<td>SOAP (WSDL)</td>
+		<td>XML</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>Tooling API</td>
+		<td>Synchronous</td>
+		<td>REST or SOAP (WSDL)</td>
+		<td>JSON, XML, Custom</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>Streaming API</td>
+		<td>Asynchronous (stream of data)</td>
+		<td>Bayeux</td>
+		<td>JSON</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>Chatter REST API</td>
+		<td>Synchronous (photos are processed asynchronously)</td>
+		<td>REST</td>
+		<td>JSON, XML</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>Analytics REST API</td>
+		<td>Synchronous</td>
+		<td>REST</td>
+		<td>JSON, XML</td>
+		<td></td>
 	</tr>
 </table>
 
