@@ -41,7 +41,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Apex @webService methods</td>
+		<td>Apex @webService keyword methods</td>
 		<td>Custom SOAP API</td>
 		<td>Synchronous</td>
 		<td></td>
@@ -65,6 +65,15 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<td></td>
 		<td></td>
 		<td>Messaging.SingleEmailMessage, Messaging.MassEmailMessage, Messaging.sendEmail()</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex @RestResource annotation</td>
+		<td>Apex REST API</td>
+		<td>Synchronous</td>
+		<td>REST</td>
+		<td>JSON, XML, Custom</td>
+		<td>Apex REST-based Web Services (@RestResource, @HttpDelete, @HttpGet, @HttpPut, @HttpPatch, @HttpPost)</td>
 	</tr>
 </table>
 
