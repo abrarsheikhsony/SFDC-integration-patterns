@@ -10,21 +10,43 @@ Salesforce integration approaches come in a number of different flavors. Here’
 
 <table>
 	<tr>
-		<th colspan="5">Salesforce Integration Approaches (High Level Overview)</th>
+		<th colspan="7">Salesforce Integration Approaches (High Level Overview)</th>
 	</tr>
 	<tr>
-		<th>Declarative (Point and Click) <br/> / Programmatic</th>
-		<th>Type <br/> (Apex / API)</th>
+		<th>Declarative (Point and Click) / Programmatic</th>
+		<th>Apex</th>
+		<th>API</th>
 		<th>Communication</th>
 		<th>Protocol</th>
 		<th>Data Format</th>
+		<th>Details</th>
 	</tr>
 	<tr>
 		<td>Declarative (Point and Click)</td>
 		<td>Outbound Message</td>
+		<td></td>
 		<td>Asynchronous</td>
 		<td>SOAP (WSDL)</td>
 		<td>XML</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex @future methods</td>
+		<td></td>
+		<td>Asynchronous</td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex @webService methods</td>
+		<td>Custom SOAP API</td>
+		<td>Synchronous</td>
+		<td></td>
+		<td></td>
+		<td>call via Apex, Custom Buttons, AJAX Toolkit</td>
 	</tr>
 </table>
 
