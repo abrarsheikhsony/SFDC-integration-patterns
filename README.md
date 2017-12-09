@@ -149,8 +149,8 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Force.com Canvas API</td>
 		<td></td>
+		<td>Force.com Canvas API</td>
 		<td>Synchronous</td>
 		<td>JavaScript</td>
 		<td>JavaScript code</td>
