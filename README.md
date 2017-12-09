@@ -59,8 +59,8 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Apex WSDL2Apex</td>
-		<td>Apex SOAP API</td>
+		<td>Apex SOAP Callouts (WSDL2Apex)</td>
+		<td>custom SOAP API</td>
 		<td>Synchronous</td>
 		<td>SOAP (WSDL)</td>
 		<td>XML</td>
@@ -68,17 +68,26 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Apex @webService keyword methods</td>
-		<td>Custom SOAP API</td>
+		<td>Apex SOAP WebServices (@webService keyword)</td>
+		<td>custom SOAP API</td>
 		<td>Synchronous</td>
 		<td>SOAP (WSDL)</td>
 		<td>XML, Custom</td>
-		<td>call via Apex, Custom Buttons, AJAX Toolkit</td>
+		<td>Using @webService keyword call via Apex, Custom Buttons, AJAX Toolkit</td>
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Apex @RestResource annotation</td>
-		<td>Custom REST API</td>
+		<td>Apex REST / HTTP Callout</td>
+		<td>custom REST API</td>
+		<td>Synchronous</td>
+		<td>REST or SOAP (WSDL)</td>
+		<td>JSON, XML, Custom</td>
+		<td>Apex REST/HTTP callout (RESTful callouts)</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td>Apex REST WebServices (@RestResource annotation)</td>
+		<td>custom REST API</td>
 		<td>Synchronous</td>
 		<td>REST</td>
 		<td>JSON, XML, Custom</td>
@@ -86,17 +95,8 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Programmatic</td>
-		<td>Apex HTTP Callout</td>
 		<td></td>
-		<td>Synchronous</td>
-		<td>REST or SOAP (WSDL)</td>
-		<td>JSON, XML, Custom</td>
-		<td>Apex HTTP Callout (RESTful Callouts)</td>
-	</tr>
-	<tr>
-		<td>Programmatic</td>
-		<td></td>
-		<td>SOAP API</td>
+		<td>standard SOAP API</td>
 		<td>Synchronous</td>
 		<td>SOAP (WSDL)</td>
 		<td>XML</td>
@@ -105,7 +105,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>REST API</td>
+		<td>standard REST API</td>
 		<td>Synchronous</td>
 		<td>REST</td>
 		<td>JSON, XML</td>
@@ -114,7 +114,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>Bulk API</td>
+		<td>standard Bulk API</td>
 		<td>Asynchronous</td>
 		<td>REST</td>
 		<td>CSV, JSON, XML</td>
@@ -123,7 +123,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>Metadata API</td>
+		<td>standard Metadata API</td>
 		<td>Asynchronous</td>
 		<td>SOAP (WSDL)</td>
 		<td>XML</td>
@@ -132,7 +132,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>Tooling API</td>
+		<td>standard Tooling API</td>
 		<td>Synchronous</td>
 		<td>REST or SOAP (WSDL)</td>
 		<td>JSON, XML, Custom</td>
