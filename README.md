@@ -141,7 +141,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>Streaming API</td>
+		<td>standard Streaming API</td>
 		<td>Asynchronous (stream of data)</td>
 		<td>Bayeux</td>
 		<td>JSON</td>
@@ -150,7 +150,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>Force.com Canvas API</td>
+		<td>standard Force.com Canvas API</td>
 		<td>Synchronous</td>
 		<td>JavaScript</td>
 		<td>JavaScript code</td>
@@ -159,7 +159,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>Chatter REST API</td>
+		<td>standard Chatter REST API</td>
 		<td>Synchronous (photos are processed asynchronously)</td>
 		<td>REST</td>
 		<td>JSON, XML</td>
@@ -168,7 +168,7 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
-		<td>Analytics REST API</td>
+		<td>standard Analytics REST API</td>
 		<td>Synchronous</td>
 		<td>REST</td>
 		<td>JSON, XML</td>
