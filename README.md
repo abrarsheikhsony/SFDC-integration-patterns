@@ -23,6 +23,15 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	</tr>
 	<tr>
 		<td>Declarative (Point and Click)</td>
+		<td>Salesforce Connect</td>
+		<td></td>
+		<td>Asynchronous</td>
+		<td>REST</td>
+		<td>JSON</td>
+		<td>External Data Sources / External Objects</td>
+	</tr>
+	<tr>
+		<td>Declarative (Point and Click)</td>
 		<td>Outbound Message</td>
 		<td></td>
 		<td>Asynchronous</td>
