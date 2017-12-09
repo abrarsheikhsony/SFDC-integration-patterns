@@ -114,6 +114,15 @@ Salesforce integration approaches come in a number of different flavors. Here’
 	<tr>
 		<td>Programmatic</td>
 		<td></td>
+		<td>standard Composite API</td>
+		<td>Synchronous</td>
+		<td>REST</td>
+		<td>JSON, XML</td>
+		<td>REST API composite resources</td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
 		<td>standard Bulk API</td>
 		<td>Asynchronous</td>
 		<td>REST</td>
@@ -146,6 +155,15 @@ Salesforce integration approaches come in a number of different flavors. Here’
 		<td>Bayeux</td>
 		<td>JSON</td>
 		<td></td>
+	</tr>
+	<tr>
+		<td>Programmatic</td>
+		<td></td>
+		<td>standard Platform Events</td>
+		<td>Asynchronous (stream of data)</td>
+		<td>CometD</td>
+		<td>JSON</td>
+		<td>Streaming API CometD protocol</td>
 	</tr>
 	<tr>
 		<td>Programmatic</td>
